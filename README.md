@@ -1,4 +1,6 @@
 # Information-Retrieval
+Although this project was finished on June 2nd, 2025, it was uploaded later because the large corpus has too many files.
+
 Evaluate information retrieval methods, including Precision, Recall, R-Precision, P@15, NDCG@15, MAP, and bpref, on both small and large corpora. 
 
 Here we have an introduction on how to run this project:
