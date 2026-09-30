@@ -24,7 +24,7 @@ This program must perform the following tasks:
 
 This will require you to calculate the appropriate weights and do as much pre-calculation as you can. This should be stored in a single external file in some human-readable4 format. Do not use database systems (e.g. MySQL, SQL Server, SQLite, etc.) for this.
 
-The output of this program should be a single index file, stored in the current working directory, named “21888888-small.index” (replacing “21888888” with your UCD student number).
+The output of this program should be a single index file, stored in the current working directory.
 
 ## query_small_corpus.py
 This program allows a user to submit queries to retrieve from the small corpus, or to run the standard corpus queries so that the system can be evaluated. The BM25 model must be used for retrieval.
@@ -51,11 +51,11 @@ The program should be run in the following way:
 ./evaluate_small_corpus.py -p /path/to/comp3009j-corpus-small
 
 ## index_large_corpus.py
-This program should perform the same tasks as index_small_corpus.py, except that the output file should be named “21888888-large.index” (replacing “21888888” with your UCD student number).
+This program should perform the same tasks as index_small_corpus.py.
 
 ## query_large_corpus.py
-This program should perform the same tasks as query_small_corpus.py, except that the output results file should be named “21888888-large.results” (replacing “21888888” with your UCD student number).
+This program should perform the same tasks as query_small_corpus.py.
 
 ## evaluate_large_corpus.py
 In addition to the evaluation metrics calculated by evaluate_small_corpus.py, this program should also calculate bpref (since the large corpus has incomplete relevance judgments).
-Otherwise, this program should perform the same tasks as evaluate_small_corpus.py, except that the input results file should be named “21888888-large.results” (replacing “21888888” with your UCD student number).
+Otherwise, this program should perform the same tasks as evaluate_small_corpus.py.
