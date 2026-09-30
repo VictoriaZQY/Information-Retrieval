@@ -33,6 +33,3 @@ This file will have 4 fields on each line, which are:
 2. The Document ID.
 3. The rank of the document in the results for this query (starting at 1).
 4. The similarity score for the document and this query.
-
-### Questions
-If you have questions about this corpus, please post in the Brightspace discussion forum, or email me at [david.lillis@ucd.ie](mailto:david.lilli@ucd.ie).
